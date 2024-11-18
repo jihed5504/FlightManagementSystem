@@ -1,0 +1,54 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+
+.button_choix {
+    -fx-background-color: #0084ff2b; /* Button background color */
+    -fx-text-fill: white;          /* Button text color */
+    -fx-font-size: 14px;           /* Button text size */
+    -fx-font-weight: bold;         /* Button text weight */
+    -fx-padding: 10;            /* Button padding */
+    -fx-background-radius: 15px;    /* Rounded corners */
+    -fx-background-insets: 0 0 0 0, 0 0 10 0; /* Elevated effect */
+    -fx-border-radius: 15px;
+    -fx-border-color: white;
+   
+}
+
+.button_choix:hover {
+    -fx-background-color: #0099ff; /* Button background color on hover */
+    
+}
+
+.button_choix:pressed {
+    -fx-background-color: #0D47A1; /* Button background color when pressed */
+}
+
+.image-button {
+    -fx-background-image: url('/Images/logout.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-text-fill: transparent; /* Make text transparent to see the image */
+    -fx-background-color: transparent; /* Make background transparent */
+}
+
+.bonj_client {
+    text-align: center;
+}
+
+.transparent-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: transparent;
+    -fx-border-color: transparent; /* Border color, adjust as needed */
+    -fx-border-width: 2; /* Border width, adjust as needed */
+    -fx-border-radius: 5; /* Border radius, adjust as needed */
+}
+.transparent-button:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: transparent;
+    -fx-border-color: gray; /* Border color, adjust as needed */
+    -fx-border-width: 2; /* Border width, adjust as needed */
+    -fx-border-radius: 5; /* Border radius, adjust as needed */
+}
