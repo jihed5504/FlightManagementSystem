@@ -1,5 +1,4 @@
-# FlightManagementSystem
-# Flight Reservation Application
+# Flight Reservation Management System
 
 ## I. Introduction
 
